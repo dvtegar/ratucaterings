@@ -1,0 +1,68 @@
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1000px;
+  }
+}
+.kategori li{ 
+	list-style:none;
+	margin-left:-40px;
+	font-size:16px;
+	line-height:30px;
+}
+.content-menu{
+background-color: #FFF;
+padding:5px;
+}
+
+.table-hove tbody tr:hover{ background:#d9edf7; }
+
+.table {
+  border:1px solid#CCC;
+}
+table td, table th {
+  padding:10px;
+  font-size: 10px;
+}
+
+* {
+  transition: all 200ms ease-in-out;
+}
+body {
+  background-color: #EEE;
+}
+
+.navbar-blue {
+  background-color: #089;
+  border:none;
+  color: #FFF;
+}
+.navbar-blue .navbar-brand {
+  color: #FFF;
+}
+.navbar-blue .navbar-nav li > a {
+  color:#FFF;
+}
+.navbar-blue .navbar-nav .dropdown-menu li > a{
+  color:#000;
+}
+.kategori {
+  border:1px solid#089;
+  background-color: #FFF;
+}
+.kategori li {
+  padding:10px;
+}
+.footer {
+  background-color: #089;
+  color:#FFF;
+}
