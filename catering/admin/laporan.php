@@ -1,6 +1,6 @@
-<?php 
+<?php
 	ob_start();
-	include"../inc/config.php"; 
+	include"../inc/config.php";
 	validate_admin_not_login("login.php");
 	if (@$_GET['act'] != "cetak") {
 		include"inc/header.php";

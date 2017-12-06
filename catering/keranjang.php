@@ -17,10 +17,10 @@
         
         if(isset($_GET['update_cart'])){
             if(isset($cart[$pid]))
-            	if ($_GET['qty'] >= 1)
+            	if ($_GET['qty'] >= 40)
 	                $cart[$pid] = $_GET['qty'];
 	           	else
-	           		alert('Minimal Quantity 1'); redir('keranjang.php');
+	           		alert('Minimal Quantity 40'); redir('keranjang.php');
         }elseif(isset($_GET['delete_cart'])){
 			if(isset($cart[$pid])){
 				unset($cart[$pid]);
